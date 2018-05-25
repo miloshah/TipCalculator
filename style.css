@@ -1,0 +1,94 @@
+body {
+    background: #333 url('images/cuttlery.jpg') center center no-repeat;
+    background-size: cover;
+    color: #532827;
+}
+
+#container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url('images/paper-pattern.jpg') top left repeat;
+    box-shadow: 0 10px 15px -8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -os-border-radius: 5px;
+    -ms-border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin: 25px 0;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin: 10px;
+}
+
+input[type="text"] {
+    width: 90px;
+}
+
+button {
+    background: #6c2726;
+    color: white;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+button:hover {
+    background: #4c3827;
+    border-bottom: solid 4px #111;
+    cursor: pointer;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 40px;
+    /*    display: none;*/
+}
+
+#totalTip:before {
+    content: "Tip Amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTip small {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
